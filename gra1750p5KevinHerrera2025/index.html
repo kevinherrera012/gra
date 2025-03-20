@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salad Restaurant Mobile Site</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle, #3a220f 0%, #2d1b0d 80%);
+            color: #fff;
+            text-align: center;
+        }
+
+        
+        .wrapper {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        
+        header {
+            background: #fff;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 500px;
+            margin: 0 auto;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo-container {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .logo-container img {
+            width: 140px;
+            height: auto;
+        }
+
+        .menu-icons {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .menu-icons button {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .menu-icons img {
+            width: 35px;
+            height: auto;
+        }
+
+        
+        main {
+            padding: 15px 0;
+        }
+
+        .promo-section, .menu-section, .image-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px auto;
+            max-width: 450px;
+        }
+
+        .promo-section h1 {
+            font-size: 20px;
+            color: #2d1b0d;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .promo-section img, .image-section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+
+        
+        .menu-section h2 {
+            font-size: 22px;
+            color: #2d1b0d;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            justify-content: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .menu-container button {
+            width: 100%;
+            padding: 12px;
+            background: #d6d6d6;
+            color: #2d1b0d;
+            font-size: 14px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .menu-container button:hover {
+            background: #bfbfbf;
+        }
+
+        
+        footer {
+            background: #4d2f1a;
+            padding: 15px;
+            font-size: 12px;
+            color: #f4e1c8;
+            text-align: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="menu-icons">
+                <button aria-label="Menu">☰</button>
+            </div>
+            <div class="logo-container">
+                <img src="Olive_Garden-Logo.wine.png" alt="Olive Garden Logo">
+            </div>
+            <div class="menu-icons">
+                <img src="takeouticon.png" alt="Takeout Icon">
+            </div>
+        </div>
+    </header>
+    
+    <main class="wrapper">
+        <section class="promo-section">
+            <h1>UNLIMITED PASTA FOR ONLY $13.99!</h1>
+            <img src="intro-1696970544.jpg" alt="Three pasta dishes on plates">
+        </section>
+        
+        <section class="menu-section">
+            <h2>Explore Our Menu</h2>
+            <div class="menu-container">
+                <button>Oven Baked Pastas</button>
+                <button>Desserts</button>
+                <button>Our Alfredos</button>
+                <button>Classic Entrées</button>
+                <button>Soups &amp; Salads</button>
+                <button>Our Wines</button>
+                <button>Kids Menu</button>
+                <button>Catering</button>
+            </div>
+        </section>
+        
+        <section class="image-section">
+            <img src="OG-OBP-HOME-2000x800.jpg" alt="Three pasta dishes with text &quot;Get it while it's hot&quot;">
+        </section>
+    </main>
+    
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2025, Kevin Herrera. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
